@@ -1,6 +1,5 @@
 ---
-- name: Dokcer installation
-  host: localhost
+- host: localhost
   become: yes
   tasks:
     - name: Run update
